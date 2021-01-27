@@ -1,15 +1,15 @@
 
-import h from'./header.module.css';
+import h from './css/header.module.css';
 
-const Header = ({title, descr}) => { 
+const Header = ({ title, descr }) => {
   return (
     <header className={h.root}>
-    <div className={h.forest}></div>
-    <div className={h.container}>
+      <div className={h.forest}></div>
+      <div className={h.container}>
         <h1> {title} </h1>
         <p> {descr} </p>
-    </div>
-</header>
+      </div>
+    </header>
   );
 }
 
